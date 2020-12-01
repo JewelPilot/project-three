@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
+@import url("http://basehold.it/");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
+
+
+
+
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* stylelint-disable*/
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+/* stylelint-enable */
+
+/* Begin site styles below */
+
+* {
+  font-size: 1.875em;
+  line-height: 200%;
+  box-sizing: border-box;
+  font-family: "Shadows Into Light", cursive;
+
+}
+/*Media quries for different device sizes*/
+
+@media only screen and (min-width: 37.64em) {
+  body {
+    background-color: lightblue;
+  }
+}
+/*When phone enters landscape mode*/
+@media screen and (orientation: landscape) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+@media only screen and (min-width: 48.18em) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+@media only screen and (min-width: 64.24em) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+
+
+.hdr {
+  font-size: 1.875em;
+
+}
+
+
+
+#para {
+  font-family: "Shadows Into Light", cursive;
+  color: deepskyblue;
+}
+.big {
+  font-size: 1.875em;
+}
+#note {
+  font-size: 0.5em;
+  font-style: italic;
+  color: purple;
+}
+
+/* Restrict Maximum image size to about 55 percent*/
+img {
+  display: block;
+  max-width: 55%;
+}
+/*Add font and color to <p> elements*/
+p {
+  color: red;
+  font-family: "Shadows Into Light", cursive;
+}
+/*Center all <li> elements*/
+li {
+  text-align: center;
+  font-family: "Shadows Into Light", cursive;
+
+}
+
+/*Make Header lists Horizontally pependicular to each other*/
+ul#menu li {
+  display: inline;
+  font-weight: bold;
+  padding-top: 2em;
+  border: 2px solid deepskyblue;
+}
+
+h1 {
+  font-family: "Shadows Into Light", cursive;
+  text-align: center;
+}
+
+footer {
+  padding-top: 1em;
+}
+
+figcaption {
+  font-size: 0.5em;
+  font-family: "Shadows Into Light", cursive;
+  line-height: 100%;
+}
